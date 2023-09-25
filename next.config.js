@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    appDir:true,
+module.exports = {
+    reactStrictMode: true,
+    // image: {
+    //         domains:['links.papareact.com']
+    //     },
+        expreimetal: {
+            appDir: true,
+    
 }
 
-module.exports = nextConfig
+}
+
